@@ -1,4 +1,4 @@
-const { getTemplate } = require('./index')
+const { getTemplate, getInfo } = require('./index')
 
 const template = getTemplate('no')
 
@@ -15,3 +15,4 @@ const repackedTemplate = template.reduce((prev, current) => {
 }, {})
 
 console.log(JSON.stringify(repackedTemplate, null, 2))
+console.log(getInfo())

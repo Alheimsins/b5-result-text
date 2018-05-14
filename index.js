@@ -21,9 +21,7 @@ module.exports = data => {
 }
 
 module.exports.getInfo = () => {
-  return {
-    languages: languages
-  }
+  return { languages }
 }
 
 module.exports.getTemplate = (language = 'en') => {

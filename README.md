@@ -138,6 +138,7 @@ console.log(getFacet({language: 'no', domain: 'O', facet: 2})) // returns conten
 | ---- | --------- | ---------- |
 | en   | English   |            |
 | no   | Norsk | Eli Huseby |
+| is   | Icelandic | Franz Jónas Arnar Arnarson and [Sigurður Kári Árnason](https://github.com/sigurdurkari) |
 
 ## Help wanted
 
@@ -161,5 +162,5 @@ If you want to help by translating the results to another language this is how y
 
 Created with <3 by [zrrzzt](https://github.com/zrrrzzt) and [maccyber](https://github.com/maccyber)
 
-![Robohash image of zrrrzzt](https://robots.kebabstudios.party/zrrrzzt.png "Robohash image of zrrrzzt") 
+![Robohash image of zrrrzzt](https://robots.kebabstudios.party/zrrrzzt.png "Robohash image of zrrrzzt")
 ![Robohash image of maccyber](https://robots.kebabstudios.party/maccyber.png "Robohash image of maccyber")
