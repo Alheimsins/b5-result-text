@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/b5-result-text.svg?branch=master)](https://travis-ci.org/zrrrzzt/b5-result-text)
 [![Coverage Status](https://coveralls.io/repos/zrrrzzt/b5-result-text/badge.svg?branch=master&service=github)](https://coveralls.io/github/zrrrzzt/b5-result-text?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/b5-result-text.svg)](https://greenkeeper.io/)
 
 # b5-result-text
 

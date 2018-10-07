@@ -20,13 +20,9 @@ module.exports = data => {
   return generateResult(data.scores, template)
 }
 
-module.exports.getInfo = () => {
-  return { languages }
-}
+module.exports.getInfo = () => ({ languages })
 
-module.exports.getTemplate = (language = 'en') => {
-  return getTemplate(language)
-}
+module.exports.getTemplate = (language = 'en') => getTemplate(language)
 
 module.exports.getDomain = require('./lib/get-domain')
 

@@ -13,7 +13,7 @@ test('throws if missing options', t => {
 test('throws if missing input.language', t => {
   const expectedErrorMessage = 'Missing required input: options.language'
   const error = t.throws(() => {
-    getFacet({language: false})
+    getFacet({ language: false })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
@@ -22,7 +22,7 @@ test('throws if missing input.language', t => {
 test('throws if missing input.domain', t => {
   const expectedErrorMessage = 'Missing required input: options.domain'
   const error = t.throws(() => {
-    getFacet({language: 'en', domain: false})
+    getFacet({ language: 'en', domain: false })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
@@ -31,7 +31,7 @@ test('throws if missing input.domain', t => {
 test('throws if missing input.facet', t => {
   const expectedErrorMessage = 'Missing required input: options.facet'
   const error = t.throws(() => {
-    getFacet({language: 'en', domain: 'o', facet: false})
+    getFacet({ language: 'en', domain: 'o', facet: false })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
@@ -39,25 +39,25 @@ test('throws if missing input.facet', t => {
 
 test('fallback to en lang', t => {
   const expectedResult = require('../data/en-a-6.json')
-  const result = getFacet({language: 'xx', domain: 'a', facet: '6'})
+  const result = getFacet({ language: 'xx', domain: 'a', facet: '6' })
   t.deepEqual(expectedResult, result, 'result ok')
 })
 
 test('throws if non existent domain', t => {
   const expectedErrorMessage = 'Domain not found'
   const error = t.throws(() => {
-    getFacet({language: 'en', domain: 'x', facet: 1})
+    getFacet({ language: 'en', domain: 'x', facet: 1 })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
 })
 
 test('returns empty for non existing facet', t => {
-  const result = getFacet({language: 'en', domain: 'o', facet: 'x'})
+  const result = getFacet({ language: 'en', domain: 'o', facet: 'x' })
   t.falsy(result, 'result falsy ok')
 })
 
 test('returns expected result', t => {
-  const result = getFacet({language: 'en', domain: 'a', facet: '6'})
+  const result = getFacet({ language: 'en', domain: 'a', facet: '6' })
   t.truthy(result, 'result ok')
 })

@@ -15,7 +15,7 @@ test('throws if missing input', t => {
 test('throws if not input.scores', t => {
   const expectedErrorMessage = 'Missing required input data.scores'
   const error = t.throws(() => {
-    generateResult({scores: false})
+    generateResult({ scores: false })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
@@ -23,7 +23,7 @@ test('throws if not input.scores', t => {
 
 test('returns expected result', t => {
   const scores = require('../data/scores.json')
-  const result = generateResult({scores: scores})
+  const result = generateResult({ scores: scores })
 
   t.truthy(result, 'result ok')
 })

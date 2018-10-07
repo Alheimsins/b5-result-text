@@ -1,7 +1,7 @@
 {
   "name": "@alheimsins/b5-result-text",
   "description": "Text for big five results score",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "license": "MIT",
   "files": [
     "lib/",
@@ -21,10 +21,10 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
-    "test": "standard && nsp check && ava",
+    "test": "standard && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
@@ -47,7 +47,6 @@
   "devDependencies": {
     "ava": "0.25.0",
     "coveralls": "3.0.2",
-    "nsp": "3.2.1",
     "nyc": "13.0.1",
     "standard": "12.0.1"
   }
