@@ -38,12 +38,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zrrrzzt/b5-result-text.git"
+    "url": "git+https://github.com/alheimsins/b5-result-text.git"
   },
   "bugs": {
-    "url": "https://github.com/zrrrzzt/b5-result-text/issues"
+    "url": "https://github.com/alheimsins/b5-result-text/issues"
   },
-  "homepage": "https://github.com/zrrrzzt/b5-result-text#readme",
+  "homepage": "https://github.com/alheimsins/b5-result-text#readme",
   "devDependencies": {
     "ava": "0.25.0",
     "coveralls": "3.0.2",
