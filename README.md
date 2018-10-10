@@ -159,7 +159,6 @@ If you want to help by translating the results to another language this is how y
 
 ## About
 
-Created with <3 by [zrrzzt](https://github.com/alheimisins) and [maccyber](https://github.com/maccyber)
+Created with <3 by [Alheimsins](https://github.com/Alheimsins)
 
-![Robohash image of alheimisins](https://robots.kebabstudios.party/alheimisins.png "Robohash image of alheimisins")
-![Robohash image of maccyber](https://robots.kebabstudios.party/maccyber.png "Robohash image of maccyber")
+![Alheimsins symbol](https://file-qwoleuymtm.now.sh "Alheimsins symbol")
