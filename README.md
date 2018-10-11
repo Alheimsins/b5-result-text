@@ -9,7 +9,7 @@ Text for [big five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) r
 ## Installation
 
 ```
-$ npm i b5-result-text
+$ npm i @alheimsins/b5-result-text
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Pass an object with scores and language code for result.
 Default language is English (en) but Norwegian (no) is supported as well.
 
 ```JavaScript
-const getResult = require('b5-result-text')
+const getResult = require('@alheimsins/b5-result-text')
 const scores = {
      'A': {
        'score': 6,
@@ -114,7 +114,7 @@ returns
 ### Extras
 
 ```JavaScript
-const { getInfo, getTemplate, getDomain, getFacet } = require('b5-result-text')
+const { getInfo, getTemplate, getDomain, getFacet } = require('@alheimsins/b5-result-text')
 
 console.log(getInfo()) // returns modules info
 
@@ -149,7 +149,9 @@ If you want to help by translating the results to another language this is how y
 - use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code as folder name.
 - translate the content of all files except index.js
 - don't change filenames or properties
+- all files must be present in the folder
 - add your language code to the [languages.json](lib/data/languages.json) file
+- run the tests `$ npm run test`
 - submit pull request
 - happiness :-)
 
@@ -159,6 +161,6 @@ If you want to help by translating the results to another language this is how y
 
 ## About
 
-Created with <3 by [Alheimsins](https://github.com/Alheimsins)
+Created with ❤ for [Alheimsins](https://alheimsins.net)
 
-![Alheimsins symbol](https://file-qwoleuymtm.now.sh "Alheimsins symbol")
+<img src="https://image.ibb.co/dPH08G/logo_black.png" height="150px" width="150px" />
