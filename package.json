@@ -1,7 +1,7 @@
 {
   "name": "@alheimsins/b5-result-text",
   "description": "Text for big five results score",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
