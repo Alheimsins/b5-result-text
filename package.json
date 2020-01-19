@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/alheimsins/b5-result-text#readme",
   "devDependencies": {
-    "ava": "2.4.0",
+    "ava": "3.0.0",
     "coveralls": "3.0.9",
     "husky": "4.0.10",
     "nyc": "15.0.0",
