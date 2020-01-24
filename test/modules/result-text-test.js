@@ -7,7 +7,7 @@ test('throws if missing input', t => {
   const expectedErrorMessage = 'Missing required input'
   const error = t.throws(() => {
     generateResult()
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, expectedErrorMessage)
 })
@@ -16,7 +16,7 @@ test('throws if not input.scores', t => {
   const expectedErrorMessage = 'Missing required input data.scores'
   const error = t.throws(() => {
     generateResult({ scores: false })
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, expectedErrorMessage)
 })

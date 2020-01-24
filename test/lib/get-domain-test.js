@@ -5,7 +5,7 @@ test('throws if missing options', t => {
   const expectedErrorMessage = 'Missing required input: options'
   const error = t.throws(() => {
     getDomain()
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, expectedErrorMessage)
 })
@@ -14,7 +14,7 @@ test('throws if missing input.language', t => {
   const expectedErrorMessage = 'Missing required input: options.language'
   const error = t.throws(() => {
     getDomain({ language: false })
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, expectedErrorMessage)
 })
@@ -23,7 +23,7 @@ test('throws if missing input.domain', t => {
   const expectedErrorMessage = 'Missing required input: options.domain'
   const error = t.throws(() => {
     getDomain({ language: 'en', domain: false })
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, expectedErrorMessage)
 })
