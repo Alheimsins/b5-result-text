@@ -136,6 +136,7 @@ console.log(getFacet({language: 'no', domain: 'O', facet: 2})) // returns conten
 | Code | Name      | Translator |
 | ---- | --------- | ---------- |
 | en   | English   |            |
+| da   | Danish    |            |
 | no   | Norsk | Eli Huseby |
 | is   | Icelandic | Franz Jónas Arnar Arnarson and [Sigurður Kári Árnason](https://github.com/sigurdurkari) |
 
