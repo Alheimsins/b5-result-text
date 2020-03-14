@@ -52,7 +52,7 @@
     "coveralls": "3.0.9",
     "husky": "4.2.3",
     "nyc": "15.0.0",
-    "standard": "14.3.1"
+    "standard": "14.3.2"
   },
   "husky": {
     "hooks": {
