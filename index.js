@@ -2,6 +2,18 @@ const getTemplate = require('./lib/get-template')
 const generateResult = require('./lib/generate-result')
 const languages = require('./lib/data/languages.json')
 
+function languageSort (a, b) {
+  if (a.text < b.text) {
+    return -1
+  }
+  if (a.text > b.text) {
+    return 1
+  }
+  return 0
+}
+
+languages.sort(languageSort)
+
 module.exports = data => {
   if (!data) {
     throw new Error('Missing required input')
