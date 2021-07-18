@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/Alheimsins/b5-result-text.svg?branch=master)](https://travis-ci.com/Alheimsins/b5-result-text)
-[![Coverage Status](https://coveralls.io/repos/Alheimsins/b5-result-text/badge.svg?branch=master&service=github)](https://coveralls.io/github/Alheimsins/b5-result-text?branch=master)
+[![Build Status](https://travis-ci.com/Alheimsins/b5-result-text.svg?branch=main)](https://travis-ci.com/Alheimsins/b5-result-text)
+[![Coverage Status](https://coveralls.io/repos/Alheimsins/b5-result-text/badge.svg?branch=main&service=github)](https://coveralls.io/github/Alheimsins/b5-result-text?branch=main)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # b5-result-text
