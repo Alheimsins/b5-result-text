@@ -62,5 +62,9 @@
   {
     "id": "ru",
     "text": "Russian"
+  },
+  {
+    "id": "ja",
+    "text": "Japanese"
   }
 ]
